@@ -1,4 +1,4 @@
-# TMTC Backend API
+# Backend API
 
 This is the backend API for **project**, built with **Node.js, Express, MongoDB, and Redis**.  
 The project is fully containerized using **Docker** and **Docker Compose**.
