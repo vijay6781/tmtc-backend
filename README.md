@@ -34,3 +34,5 @@ The project is fully containerized using **Docker** and **Docker Compose**.
 ```bash
 git clone https://github.com/vijay6781/tmtc-backend.git
 cd tmtc-backend
+docker-compose up --build
+swager endpoint -> /api-docs/
