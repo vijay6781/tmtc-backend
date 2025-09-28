@@ -13,6 +13,8 @@ The project is fully containerized using **Docker** and **Docker Compose**.
 - MongoDB for persistent storage
 - Swagger API documentation
 - Dockerized setup with MongoDB & Redis
+- easyly you can create user and with his token you can create itineraries.
+- just for info you can use get itineraries api like : api/itineraries?sort=startDate:asc or api/itineraries?destination=goa ....
 
 ---
 
