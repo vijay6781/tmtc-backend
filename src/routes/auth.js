@@ -35,10 +35,10 @@ const router = express.Router();
  *                   example: 64f9e3c2a1f1b2c3d4e5f678
  *                 name:
  *                   type: string
- *                   example: John Doe
+ *                   example: vijay kumar
  *                 email:
  *                   type: string
- *                   example: john@example.com
+ *                   example: test@example.com
  *       400:
  *         description: Bad request / validation error
  */
