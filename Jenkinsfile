@@ -8,12 +8,15 @@ pipeline {
     }
 
     stages {
-        stage('Checkout') {
-            steps {
-                // Use SSH URL since your key is set up
-                git branch: 'main', url: 'git@github.com:vijay6781/tmtc-backend.git'
-            }
-        }
+       stage('Checkout') {
+    steps {
+        sh '''
+        eval $(ssh-agent -s)
+        ssh-add /var/lib/jenkins/.ssh/id_ed25519_tmtc
+        git clone -b main git@github.com:vijay6781/tmtc-backend.git
+        '''
+    }
+}
 
         stage('Build Docker Image') {
             steps {
