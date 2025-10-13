@@ -146,7 +146,7 @@ router.delete("/:id", protect, deleteItinerary);
 
 /**
  * @swagger
- * /itineraries:
+ * /itineraries/check/all:
  *   get:
  *     summary: Get all itineraries checking
  *     tags: [Itineraries]
