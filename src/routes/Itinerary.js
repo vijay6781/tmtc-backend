@@ -144,4 +144,45 @@ router.put("/:id", protect, updateItinerary);
  */
 router.delete("/:id", protect, deleteItinerary);
 
+/**
+ * @swagger
+ * /itineraries:
+ *   get:
+ *     summary: Get all itineraries checking
+ *     tags: [Itineraries]
+ *     security:
+ *       - bearerAuth: []
+ *     parameters:
+ *       - in: query
+ *         name: page
+ *         schema:
+ *           type: integer
+ *       - in: query
+ *         name: limit
+ *         schema:
+ *           type: integer
+ *       - in: query
+ *         name: sort
+ *         schema:
+ *           type: string
+ *       - in: query
+ *         name: destination
+ *         schema:
+ *           type: string
+ *       - in: query
+ *         name: startDate
+ *         schema:
+ *           type: string
+ *           format: date
+ *       - in: query
+ *         name: endDate
+ *         schema:
+ *           type: string
+ *           format: date
+ *     responses:
+ *       200:
+ *         description: List of itineraries
+ */
+router.get("/check/all", protect, getItineraries);
+
 export default router;
