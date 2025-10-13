@@ -7,7 +7,7 @@ import {
   deleteItinerary,
 } from "../controllers/itineraryController.js";
 import { protect } from "../middleware/authMiddleware.js";
-import { cache } from "../middleware/cacheMiddleware.js";
+// import { cache } from "../middleware/cacheMiddleware.js";
 
 const router = express.Router();
 
@@ -70,7 +70,7 @@ router.post("/", protect, createItinerary);
  *       200:
  *         description: List of itineraries
  */
-router.get("/", protect, cache("itineraries"), getItineraries);
+router.get("/", protect, getItineraries);
 
 /**
  * @swagger

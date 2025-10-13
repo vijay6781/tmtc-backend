@@ -1,5 +1,5 @@
 import Itinerary from "../models/Itinerary.js";
-import client from "../config/redis.js";
+// import client from "../config/redis.js";
 
 // Create itinerary
 export const createItinerary = async (req, res) => {

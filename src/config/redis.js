@@ -1,11 +1,11 @@
-import { createClient } from "redis";
+// import { createClient } from "redis";
 
-const client = createClient({
-  url: process.env.REDIS_URI || "redis://localhost:6379",
-});
+// const client = createClient({
+//   url: process.env.REDIS_URI || "redis://localhost:6379",
+// });
 
-client.on("error", (err) => console.error("Redis Client Error", err));
+// client.on("error", (err) => console.error("Redis Client Error", err));
 
-await client.connect();
+// await client.connect();
 
-export default client;
+// export default client;
