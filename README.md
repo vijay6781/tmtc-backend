@@ -1,7 +1,7 @@
 # TMTC Backend API
 
 This is the backend API for **project**, built with **Node.js, Express, MongoDB, and Redis**.  
-The project is fully containerized using **Docker** and **Docker Compose**.
+The project is fully containerized using **Docker** and **Docker Compose** and **CI/CD PIPELINE JENKINS**
 
 ---
 
@@ -27,6 +27,10 @@ The project is fully containerized using **Docker** and **Docker Compose**.
 - **Containerization:** Docker & Docker Compose
 
 ---
+## 🛠️ build CI/CD PIPELINE (jenkins)
+
+![Alt text](https://github.com/user-attachments/assets/d1a280f5-ff99-4840-aec1-dc27f42c1834)
+
 
 ## 🛠️ Setup & Installation
 
@@ -36,3 +40,5 @@ git clone https://github.com/vijay6781/tmtc-backend.git
 cd tmtc-backend
 docker-compose up --build
 swagger endpoint -> /api-docs/
+
+
