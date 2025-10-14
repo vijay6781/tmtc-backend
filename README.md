@@ -1,4 +1,4 @@
-# TMTC Backend API
+# TMTC Backend API (using jenkins for CI/CD Pipeline & deploy on aws )
 
 This is the backend API for **project**, built with **Node.js, Express, MongoDB, and Redis**.  
 The project is fully containerized using **Docker** and **Docker Compose** and **CI/CD PIPELINE JENKINS**
