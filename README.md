@@ -27,9 +27,11 @@ The project is fully containerized using **Docker** and **Docker Compose** and *
 - **Containerization:** Docker & Docker Compose
 
 ---
-## 🛠️ build CI/CD PIPELINE (jenkins)
+## 🛠️ build CI/CD PIPELINE (jenkins) and deploy on aws
 
 ![Alt text](https://github.com/user-attachments/assets/d1a280f5-ff99-4840-aec1-dc27f42c1834)
+<img width="1544" height="973" alt="image" src="https://github.com/user-attachments/assets/0026f07d-d429-4cdd-a12f-d45ab73455f1" />
+
 
 
 ## 🛠️ Setup & Installation
